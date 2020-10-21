@@ -222,15 +222,15 @@ span i{
 }
 
 .flip-card-back {
-  background-color: #2980b9;
-  color: black;
+  background-color: #fd5c63;
+  color: #fff;
   width: 400px;
   height: 500px;
   transform: rotateY(180deg);
 }
 
 .menu-div{
-	border:2px solid red;
+	/*border:2px solid red;*/
 	height: 600px;
 	width: 100%;
 	display: inline-block;
@@ -266,4 +266,169 @@ span i{
   to {
     text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
   }
+}
+
+.reservation{
+	text-align: center;
+	/*border:1px solid red;*/
+	margin-top: 100px;
+	height:70px;
+}
+.reservation a{
+	font-size: 30px;
+	/*font-weight: bold;*/
+	color: #fd5c63;
+	text-decoration: none;
+}
+
+
+
+.content-1{
+	display: inline-block;
+	margin-top: 10%;
+	width: 100%;
+	height: 1000px;
+	/*border:1px solid blue;*/
+}
+.para{
+	float: left;
+	width: 25%;
+	font-size: 18px;
+	height: 200px;
+	margin:5% 3% 0 10%;
+	/*border:1px solid red;*/
+	/*background-color: #fd5c63;;*/
+	color: #fd5c63;;
+	/**/
+	
+}
+.paraheader{
+	/**/
+	color:  #fd5c63;;
+	font-size: 25px;
+	text-align: left;
+	margin-bottom: 10px;
+
+}
+
+.reserve-form{
+	/*border:1px solid red;*/
+	width: 40%;
+	height: 750px;
+	float: right;
+/*	margin:0 10% 0 0;*/
+	margin-right: 10%;
+	padding:40px;
+}
+
+table{
+	padding-left: 50px;
+	padding-right: 40px;
+	padding-bottom: 20px;
+	/*border:1px solid red;*/
+	width: 100%;
+	height: 100%;
+	background-color: #fd5c63;
+}
+
+input{
+	/*width: 500px;*/
+	height: 35px;
+	font-size: 20px;
+	/*background-color: #eeeeee;
+*/}
+td{
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 40px;
+	color: #fff;
+}
+input[type=submit]{
+	
+	font-size: 25px;
+	height: 50px;
+	width: 150px;
+	color: #fd5c63;
+
+	cursor: hand;
+	/*background-color: #dcdcdc;*/
+}
+input[type=submit]:hover{
+	color: white;
+	background-color: #fd5c63;
+}
+input{
+	outline-style: none;
+}
+
+.main-content{
+	width: 100%;
+	height: 300px;
+	margin-top: 3%;
+
+/*	border:1px solid red;*/
+	display: inline-block;
+}
+
+.Email{
+	float: left;
+	margin-left: 8%;
+	width: 25%;
+	 height: 300px;
+	 margin-top: 2%;
+	/* border:2px solid pink;*/
+	 display: inline-block;
+}
+.title-contact{
+	float: left;
+	margin-top: 20%;
+	margin-left: 5%;
+	color: #fd5c63;;
+	font-size: 30px;
+	/* border:2px solid pink;*/
+}
+.info{	
+	float: right;
+	margin-right: 2%;
+	margin-top: 10%;
+	color: #fd5c63;;
+	font-size: 20px;
+	/* border:2px solid pink;*/
+}
+.Phone{
+	float: left;
+	margin-left: 5%;
+	width: 25%;
+	 height: 300px;
+	 margin-top: 2%;
+	/* border:2px solid pink;*/
+	 display: inline-block;
+}
+
+.info-p{	
+	float: right;
+	margin-right: 20%;
+	margin-top: 10%;
+	color: #fd5c63;;
+	font-size: 20px;
+	/* border:2px solid pink;*/
+}
+
+.add{
+	float: left;
+	margin-left: 5%;
+	width: 25%;
+	 height: 300px;
+	 margin-top: 2%;
+	 /*border:2px solid pink;*/
+	 display: inline-block;
+}
+
+.info-a{	
+	float: right;
+	margin-right: 15%;
+	margin-top: 10%;
+	color: #fd5c63;;
+	font-size: 20px;
+/*	 border:2px solid pink;*/
 }
