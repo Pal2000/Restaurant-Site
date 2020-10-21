@@ -5,6 +5,8 @@ html,body{
 	overflow-x: hidden;
 	font-family: 'Lora', serif;
 }
+
+
 .container{
 	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2)), url("https://www.berkeleywellness.com/sites/default/files/field/image/400-05674517c-Masterfile-KirS_988_380.jpg");
 	background-repeat: no-repeat;
@@ -36,6 +38,14 @@ html,body{
 	display: inline-block;
 	/*border:2px solid blue;*/
 }
+
+/* This changes all the animations globally */
+.animate__animated.animate__fadeInUp, .animate__animated.animate__bounceIn {
+  --animate-duration: 2s;
+  --animation-delay: 0.8s;
+
+}
+
 .nav-items a{
 	padding-left: 25px;
 	text-decoration: none;
@@ -46,6 +56,8 @@ html,body{
 	font-size: 30px;
 	color: #fff;
 	margin-top: 15%;
+	/* animation: fadeInUp; 
+  animation-duration: 2s; */
 	/*border:2px solid red;*/
 }
 .reserve{
@@ -112,6 +124,7 @@ html,body{
 	padding: 40px;
 	text-align: center;
 	background-color:  #fd5c63;
+	box-shadow: 10px 10px  20px #ff414d;
 	/*justify-content: center;*/
 }
 .chef-intro h3{
@@ -149,6 +162,7 @@ html,body{
 	padding-left: 2%;
 	padding-right: 2%;
 	background-color: #fd5c63;
+	box-shadow: 10px 10px  20px #ff414d;
 	/*margin-left: 5%;*/
 	/*border:2px solid red;*/
 }
@@ -172,6 +186,7 @@ html,body{
 	width: 580px;
 	height: 580px;
 	object-fit: center;
+	
 }
 
 #slider a{
@@ -288,6 +303,7 @@ html,body{
 	font-size: 20px;
 	background-color: #fd5c63;
 	color: #fff;
+	box-shadow: 10px 10px  20px #ff414d;
 	/*border:2px solid red;*/
 	margin:3% 8% 10% 0;
 }
