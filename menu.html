@@ -6,10 +6,14 @@
 	<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500;1,600;1,700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 	<link rel="stylesheet" type="text/css" href="style-2.css">
+	<script type="text/javascript" src="restaurantjs.js"></script>
 </head>
 
 <body>
 	<div class="container">
+		<div class="hamburger" id="nav_bar">
+			<i class="fa fa-bars" onclick="opennav()"></i>
+		</div>
 		<div class="navbar" id="myHeader">
 			<div class="title animate__animated animate__bounceIn">Food Paradise</div>
 			<div class="nav-items">
@@ -17,9 +21,24 @@
 				<a href="About.html">About</a>
 				<a href="menu.html">Menu</a>
 				<a href="contact.html">Contact</a>
+				<a href="signup.html"> Sign Up</a>
+			</div>
+			<div id="navbar">
+				<div><span class="close"><i class="fa fa-times" onclick="closenav()"></i></span></div>
+				<br><br>
+				<div class="items">
+					<ul>
+						<li><a href="home.html"> Home</a></li>
+						<li><a href="About.html"> About</a></li>
+						<li><a href="menu.html"> Menu</a></li>
+						<li><a href="contact.html"> Contact</a></li>
+						<li><a href="signup.html"> Sign up</a></li>
+						<li><a href="reservation.html"> Reservation</a></li>
+					</ul>
+				</div>
 			</div>
 		</div>
-		<div style="margin-top: 10%; font-size: 35px; text-align: center; font-weight: bolder; color: #fd5c63;">
+		<div class="head-menu">
 			MENU
 		</div>
 		
@@ -27,9 +46,9 @@
 			<div class="flip-card" style="margin-left: 15%;">
 			  <div class="flip-card-inner">
 			    <div class="flip-card-front">
-			      <img src="https://tmbidigitalassetsazure.blob.core.windows.net/rms3-prod/attachments/37/1200x1200/Breakfast-Wraps_EXPS_TOHPP19_35683_B08_23_6b.jpg" alt="Avatar" style="width:400px;height:500px;">
+			      <img src="https://tmbidigitalassetsazure.blob.core.windows.net/rms3-prod/attachments/37/1200x1200/Breakfast-Wraps_EXPS_TOHPP19_35683_B08_23_6b.jpg" alt="Avatar">
 			      <div class="centered glow"> 
-			      	<span><u>Breakfast</u><span> 
+			      	<span><u>Breakfast</u></span> 
 			      </div>
 			    </div>
 			    <div class="flip-card-back">
@@ -51,8 +70,8 @@
 			<div class="flip-card" style="margin-left: 25%;">
 			  <div class="flip-card-inner">
 			    <div class="flip-card-front">
-			      <img src="https://i.insider.com/5e3ad7c1ab49fd79fc21a136?width=1100&format=jpeg&auto=webp" alt="Avatar" style="width:400px;height:500px;">
-			      <div class="centered glow"> <span><u>Lunch</u><span> </div>
+			      <img src="https://i.insider.com/5e3ad7c1ab49fd79fc21a136?width=1100&format=jpeg&auto=webp" alt="Avatar">
+			      <div class="centered glow"> <span><u>Lunch</u></span> </div>
 			    </div>
 			    <div class="flip-card-back">
 			      <h1>Lunch</h1> 
@@ -74,8 +93,8 @@
 			<div class="flip-card" style="margin-left: 15%;">
 			  <div class="flip-card-inner">
 			    <div class="flip-card-front">
-			      <img src="https://wander-lush.org/wp-content/uploads/2019/09/Emily-Lush-Khmer-food-Phnom-Penh-4-2.jpg" alt="Avatar" style="width:400px;height:500px;">
-			      <div class="centered glow"> <span><u>Dinner</u><span> </div>
+			      <img src="https://wander-lush.org/wp-content/uploads/2019/09/Emily-Lush-Khmer-food-Phnom-Penh-4-2.jpg" alt="Avatar" >
+			      <div class="centered glow"> <span><u>Dinner</u></span> </div>
 			    </div>
 			    <div class="flip-card-back">
 			      <h1>Dinner</h1> 
@@ -96,8 +115,8 @@
 			<div class="flip-card" style="margin-left: 25%;">
 			  <div class="flip-card-inner">
 			    <div class="flip-card-front">
-			      <img src="https://chipsrestaurants.com/wp-content/uploads/2016/05/Restaurant-Fairfield.jpg" alt="Avatar" style="width:400px;height:500px;">
-			      <div class="centered glow"> <span><u>Drinks</u><span> </div>
+			      <img src="https://chipsrestaurants.com/wp-content/uploads/2016/05/Restaurant-Fairfield.jpg" alt="Avatar">
+			      <div class="centered glow"> <span><u>Drinks</u></span> </div>
 			    </div>
 			    <div class="flip-card-back">
 			      <h1>Drinks</h1> 
@@ -116,8 +135,104 @@
 			</div>
 		</div>
 
+		<div class="menu-div-mobile">
+
+			<div class="flip-card">
+			  <div class="flip-card-inner">
+			    <div class="flip-card-front">
+			      <img src="https://tmbidigitalassetsazure.blob.core.windows.net/rms3-prod/attachments/37/1200x1200/Breakfast-Wraps_EXPS_TOHPP19_35683_B08_23_6b.jpg" alt="Avatar">
+			      <div class="centered glow"> 
+			      	<span><u>Breakfast</u></span> 
+			      </div>
+			    </div>
+			    <div class="flip-card-back">
+			      <h1>Breakfast</h1> 
+			      <p>Buttermilk Flapjacks</p> 
+			      <p>Hotcakes & Sausager</p> 
+			      <p>Buckwheat Cakes with Honey</p> 
+			      <p>Steel Cut Oatmeal</p> 
+			      <p>Baked Eggs & Bacon</p> 
+			      <p>Beef & Beet Hash</p> 
+			      <p>Architect & Engineer</p> 
+			      <p>Grits & Strawberries</p>
+			      <p>Lobster Croquettes</p>
+			      <p>Sourdough Biscuits</p>
+			    </div>
+			  </div>
+			</div>
+
+			<div class="flip-card fc1">
+			  <div class="flip-card-inner">
+			    <div class="flip-card-front">
+			      <img src="https://i.insider.com/5e3ad7c1ab49fd79fc21a136?width=1100&format=jpeg&auto=webp" alt="Avatar">
+			      <div class="centered glow"> <span><u>Lunch</u></span> </div>
+			    </div>
+			    <div class="flip-card-back">
+			      <h1>Lunch</h1> 
+			      <p>Clam Chowder</p> 
+			      <p>Lobster Bisque</p>
+			      <p>Wood Fired Oysters</p>
+			      <p>Corned Beef Sandwich</p>
+			      <p>Brisket Sandwich</p>
+			      <p>Bison Burger</p>
+			      <p>Grilled Mackerel</p>
+			      <p>Venison Burger</p>
+			      <p>Bacon & Eggs</p>
+			    </div>
+			  </div>
+			</div>
+
+
+			<div class="flip-card">
+			  <div class="flip-card-inner">
+			    <div class="flip-card-front">
+			      <img src="https://wander-lush.org/wp-content/uploads/2019/09/Emily-Lush-Khmer-food-Phnom-Penh-4-2.jpg" alt="Avatar" >
+			      <div class="centered glow"> <span><u>Dinner</u></span> </div>
+			    </div>
+			    <div class="flip-card-back">
+			      <h1>Dinner</h1> 
+			      <p>Wood Fired Oysters</p> 
+			      <p>Artichoke & Spinach Dip</p>
+			      <p>Pork Ribs</p>
+			      <p>Wild Boar Shoulder</p>
+			      <p>Bison Prime Rib</p>
+			      <p>Venison Burger</p>
+			      <p>Grilled Lake Trout</p>
+			      <p>Lobster</p>
+			      <p>Black Butter Salmon</p>
+			      <p>Vegetarian Khow Suey</p>
+			    </div>
+			  </div>
+			</div>
+
+			<div class="flip-card">
+			  	<div class="flip-card-inner">
+				    <div class="flip-card-front">
+				      <img src="https://chipsrestaurants.com/wp-content/uploads/2016/05/Restaurant-Fairfield.jpg" alt="Avatar">
+				      <div class="centered glow"> <span><u>Drinks</u></span> 
+				      </div>
+				    </div>
+				    <div class="flip-card-back">
+				      <h1>Drinks</h1> 
+				      <p>Merlot </p> 
+				      <p>Classic Sazerac</p>
+				      <p>Sherry Sangaree</p>
+				      <p>Cocktail Saga</p>
+				      <p>Chardonnay</p>
+				      <p>Red hot Wine</p>
+				      <p>Orange Cocktail Juice</p>
+				      <p>Mango Shake with strawberry bite</p>
+				      <p>London Fog</p>
+				      <p>Buck's Fizz</p>
+				    </div>
+			  	</div>
+			</div>
+			
+		</div>
+
+
 		<div class="reservation">
-			<a href=""> <u><i>Make a Reservation </i></u></a>
+			<a href="reservation.html"> <u><i>Make a Reservation </i></u></a>
 		</div>
 
 
@@ -150,19 +265,47 @@
 
 		  		<form>
 			  		<input type="email" name="email" placeholder="Enter you Email address">
-			  		<input type="submit" name="submit" value="Sign Up">
+			  		<input type="submit" name="submit" value="Submit" id="submit">
 		  		</form>
 		  </div>		  
 		</div>
 
 		<div class="end">
 			<span><a href="">Terms & Conditions</a></span><span></span><span><a href="">Privacy</a></span><span></span><span><a href="contact.html">Contact Us</a></span><span></span><span><a href="About.html">About Us</a></span><span></span><span>&copy; 2020copyright</span>
-			</div>
 		</div>
-	</div>
+	
 
-	
-	
+		<div class="footer-3" style="margin-top: 30%;">
+			<div class="contact-info">
+				123 Willow Street Austin, TX 78702<br>
+				(512) 555-0110<br>
+				foodparadise@hotmail.com<br>
+			</div>
+			<div class="social">
+				<a href="#"><span><i class="fa fa-twitter-square" aria-hidden="true"></i></span></a>
+			  	<a href="#"><span><i class="fa fa-instagram" aria-hidden="true"></i></span></a>
+			  	<a href="#"><span><i class="fa fa-whatsapp" aria-hidden="true"></i></span></a>
+			</div>
+			<div class="foot-2">
+				<div>
+				  	<h3 style="margin-left: 25%; ">Locations</h3>
+				</div>
+		  		
+		  		<ul type="none" style="margin-bottom: 10%;">
+		  			<li>Kyle</li>
+		  			<li>Taylor</li>
+		  			<li>Lakeway</li>
+		  			<li>Kingsland</li>
+		  			<li>Spicewood</li>
+		  			<li>GeorgeTown</li>
+		  		</ul>
+		  	</div>
+		  	<div class="last" style="bottom: 0; margin-bottom: 0;">
+		  		<p>Food Paradise &copy; 2020copyright</p>
+		  	</div>
+		</div>
+
+	</div>	
 
 </body>
 </html>
