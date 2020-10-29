@@ -6,10 +6,14 @@
 	<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500;1,600;1,700&display=swap" rel="stylesheet">
 	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 	 <link rel="stylesheet" type="text/css" href="style-2.css">
+	 <script type="text/javascript" src="restaurantjs.js"></script>
 </head>
 
 <body>
 	<div class="container">
+		<div class="hamburger" id="nav_bar">
+			<i class="fa fa-bars" onclick="opennav()"></i>
+		</div>
 		<div class="navbar" id="myHeader">
 			<div class="title animate__animated animate__bounceIn">Food Paradise</div>
 			<div class="nav-items">
@@ -17,9 +21,24 @@
 				<a href="About.html">About</a>
 				<a href="menu.html">Menu</a>
 				<a href="contact.html">Contact</a>
+				<a href="signup.html"> Sign Up</a>
+			</div>
+			<div id="navbar">
+				<div><span class="close"><i class="fa fa-times" onclick="closenav()"></i></span></div>
+				<br><br>
+				<div class="items">
+					<ul>
+						<li><a href="home.html"> Home</a></li>
+						<li><a href="About.html"> About</a></li>
+						<li><a href="menu.html"> Menu</a></li>
+						<li><a href="contact.html"> Contact</a></li>
+						<li><a href="signup.html"> Sign up</a></li>
+						<li><a href="reservation.html"> Reservation</a></li>
+					</ul>
+				</div>
 			</div>
 		</div>
-		<div style="margin-top: 10%; font-size: 35px; text-align: center; font-weight: bolder; color: #fd5c63;">
+		<div class="about">
 			ABOUT
 		</div>
 		<div class="content">
@@ -27,24 +46,13 @@
 
 			For more than 40 years The Food Paradise Restaurant has been all that, putting Kansas City on the nation’s culinary map and introducing local fine dining fans to some of the country’s most celebrated chefs.<br>
 
-			But perhaps its best description is less about The Austin’s legendary food, service and ambiance, and more about the role it has played in Kansas Citians’ lives. It comes from the late Adele Hall, an ardent fan, civic leader and wife of Donald J. Hall, chairman of Hallmark Cards, Inc., owner of the Crown Center real estate development.<br>
-
-			“I thought it would be wonderful,” she said, reflecting on The Food Paradise’s 25th anniversary in 1999, “if this could be the place to come to put the exclamation point on a special occasion.”<br>
-
 			That, The Paradise most certainly has been, and continues to be.<br><br>
 
 			<b>Top chefs, sweet memories</b><br><br>
 
-			Over the years The Paradise hosted 18 Friends of James Beard Foundation dinners and dozens of Cooking School programs, introducing Kansas Citians to the talents of guest chefs from the nation’s most influential restaurants, from Charlie Trotter to Emeril Lagasse, Jean-Louis Palladin to Curtis Duffy.<br>
-
 			A perennial Mobil 4-Star and AAA 4-Diamond designee, The Food Paradise nurtured its own superstars, too, and its legacy reverberates throughout Kansas City and the nation.<br>
 
 			Michael Smith and Debbie Gold, co-executive chefs from 1994 to 2001, brought Kansas City its first James Beard Award – the Oscar of the restaurant industry – when they were named “Best Chefs in the Midwest” in 1999. Celina Tio, who headed the kitchen from 2001 to 2008, earned one of her own in 2007. Celina and Debbie became known to national tv audiences, Debbie as a competitor on Bravo’s “Top Chef;” Celina competing in both “Top Chef” and the Food Channel’s “Iron Chef Austin.”<br>
-
-			What we do know is that The Food Paradise has been the exclamation point on countless special occasions, and will continue to be so.
-
-			Still special, after all these years
-			Dining tastes are more casual today. But life’s milestones continue, and our frenetic everyday pace only heightens the need to pause and gather those we love to share a special meal in a very special place.<br>
 
 			The Paradise continues to be that place. The spectacular setting and view remain. Guest chefs still share their culinary gifts in one-time-only events. Fundraising galas still support worthy causes. Private wedding receptions, retirement parties and family reunions continue, and the public is welcomed for holiday celebrations.<br>
 
@@ -78,14 +86,45 @@
 
 		  		<form>
 			  		<input type="email" name="email" placeholder="Enter you Email address">
-			  		<input type="submit" name="submit" value="Sign Up">
+			  		<input type="submit" name="submit" value="Submit" id="submit">
 		  		</form>
 		  </div>		  
 		</div>
 		<div class="end">
 			<span><a href="">Terms & Conditions</a></span><span></span><span><a href="">Privacy</a></span><span></span><span><a href="Contact.html">Contact Us</a></span><span></span><span><a href="About.html">About Us</a></span><span></span><span>&copy; 2020copyright</span>
-			</div>
+			
 		</div>
+
+		<div class="footer-3">
+			<div class="contact-info">
+				123 Willow Street Austin, TX 78702<br>
+				(512) 555-0110<br>
+				foodparadise@hotmail.com<br>
+			</div>
+			<div class="social">
+				<a href="#"><span><i class="fa fa-twitter-square" aria-hidden="true"></i></span></a>
+			  	<a href="#"><span><i class="fa fa-instagram" aria-hidden="true"></i></span></a>
+			  	<a href="#"><span><i class="fa fa-whatsapp" aria-hidden="true"></i></span></a>
+			</div>
+			<div class="foot-2">
+				<div>
+				  	<h3 style="margin-left: 25%; ">Locations</h3>
+				</div>
+		  		
+		  		<ul type="none" style="margin-bottom: 10%;">
+		  			<li>Kyle</li>
+		  			<li>Taylor</li>
+		  			<li>Lakeway</li>
+		  			<li>Kingsland</li>
+		  			<li>Spicewood</li>
+		  			<li>GeorgeTown</li>
+		  		</ul>
+		  	</div>
+		  	<div class="last" style="bottom: 0; margin-bottom: 0;">
+		  		<p>Food Paradise &copy; 2020copyright</p>
+		  	</div>
+		</div>
+
 	</div>
 </body>
 </html>
