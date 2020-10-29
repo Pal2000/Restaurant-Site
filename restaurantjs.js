@@ -26,7 +26,3 @@ function initMap() {
 	zoom: 8,
 });
 	}
-
-function myfun(){
-alert("Successfully SignUp");
-}
