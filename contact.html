@@ -6,9 +6,14 @@
 	<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500;1,600;1,700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 	<link rel="stylesheet" type="text/css" href="style-2.css">
+	<script type="text/javascript" src="restaurantjs.js"></script>
 </head>
 <body>
 	<div class="container">
+		<div class="hamburger" id="nav_bar">
+			<i class="fa fa-bars" onclick="opennav()"></i>
+		</div>
+
 		<div class="navbar" id="myHeader">
 			<div class="title animate__animated animate__bounceIn">Food Paradise</div>
 			<div class="nav-items">
@@ -16,10 +21,27 @@
 				<a href="About.html">About</a>
 				<a href="menu.html">Menu</a>
 				<a href="contact.html">Contact</a>
+				<a href="signup.html"> Sign Up</a>
 			</div>
+			<div id="navbar">
+				<div><span class="close"><i class="fa fa-times" onclick="closenav()"></i></span></div>
+				<br><br>
+				<div class="items">
+					<ul>
+						<li><a href=""> Home</a></li>
+						<li><a href=""> About</a></li>
+						<li><a href=""> Menu</a></li>
+						<li><a href=""> Contact</a></li>
+						<li><a href=""> Sign up</a></li>
+						<li><a href=""> Reservation</a></li>
+					</ul>
+				</div>
+			</div>
+
+
 		</div>
 
-		<div class="contact" style="margin-top: 10%; font-size: 30px; color: #fd5c63; text-align: center; ">
+		<div class="contact-drop">
 			<b>Drop Us A Line</b>
 		</div>
 
@@ -84,7 +106,7 @@
 
 		  		<form>
 			  		<input type="email" name="email" placeholder="Enter you Email address">
-			  		<input type="submit" name="submit" value="Sign Up">
+			  		<input type="submit" name="submit" value="Submit" id="submit">
 		  		</form>
 		  </div>		  
 		</div>
@@ -93,6 +115,38 @@
 			<span><a href="">Terms & Conditions</a></span><span></span><span><a href="">Privacy</a></span><span></span><span><a href="Contact.html">Contact Us</a></span><span></span><span><a href="About.html">About Us</a></span><span></span><span>&copy; 2020copyright</span>
 			</div>
 		</div>
+
+		<div class="footer-3" style="margin-top:130%";>
+			<div class="contact-info">
+				123 Willow Street Austin, TX 78702<br>
+				(512) 555-0110<br>
+				foodparadise@hotmail.com<br>
+			</div>
+			<div class="social">
+				<a href="#"><span><i class="fa fa-twitter-square" aria-hidden="true"></i></span></a>
+			  	<a href="#"><span><i class="fa fa-instagram" aria-hidden="true"></i></span></a>
+			  	<a href="#"><span><i class="fa fa-whatsapp" aria-hidden="true"></i></span></a>
+			</div>
+			<div class="foot-2">
+				<div>
+				  	<h3 style="margin-left: 25%; ">Locations</h3>
+				</div>
+		  		
+		  		<ul type="none" style="margin-bottom: 10%;">
+		  			<li>Kyle</li>
+		  			<li>Taylor</li>
+		  			<li>Lakeway</li>
+		  			<li>Kingsland</li>
+		  			<li>Spicewood</li>
+		  			<li>GeorgeTown</li>
+		  		</ul>
+		  	</div>
+		  	<div class="last" style="bottom: 0; margin-bottom: 0;">
+		  		<p>Food Paradise &copy; 2020copyright</p>
+		  	</div>
+		</div>
+
+
 	</div>
 </body>
 </html>
