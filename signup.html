@@ -6,6 +6,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500;1,600;1,700&display=swap" rel="stylesheet">
 	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 	 <link rel="stylesheet" type="text/css" href="style-2.css">
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
 	 <script type="text/javascript" src="restaurantjs.js"></script>
 
 </head>
@@ -49,23 +50,23 @@
 
 
 		  <tr style="color:white">
-		  <td>Name</td>
-		  <td><input name="name" type="text" id="name" required></td>
+		  <td>Name*</td>
+		  <td><input name="name" type="text" id="name" pattern="([a-zA-Z]{3,30}\s*)+" required></td>
 		 </tr>
 		 
 		  <tr style="color:white">
-		   <td>Email ID</td>
+		   <td>Email ID*</td>
 		   <td><input name="email" type="email" id="emailid" required> </td>
 		  </tr>
 		  <tr style="color:white">
-		 <td>Password</td>
-		 <td><input type="password" name="pass" id="pd" required></td>
+		 <td>Password*</td>
+		 <td><input type="password" name="pass" id="pd" pattern="^^(?=.*?[A-Z])(?=(.*[a-z]){1,})(?=(.*[\d]){1,})(?=(.*[\W]){1,})(?!.*\s).{8,}$" required><p style="font-size: 11px; line-height: 0px;">&nbsp; &nbsp;Password must contain A-Z, a-z, 0-9 and special characters</p></td>
 		 </tr>
 		   <tr style="color:white">
 
-		  <td>Select Location</td>
+		  <td>Select Location*</td>
 		  <td><select name="cities" style="height:45px; width: 320px;" id="city" required>
-		    <option value="Select">Select</option>  
+		    <option value="">Select</option>  
 		  <option value="Noida">New York</option>
 		  <option value="Delhi">London</option>
 		  <option value="Mumbai">US</option>
@@ -82,7 +83,7 @@
 
 		
 		<tr><td></td>
-		<td style="margin-left: 50px; padding-left: 75px;"> <input type="submit" id="sign">
+		<td style="margin-left: 30px; padding-left: 30px;"> <input type="submit" id="sign" value="SUBMIT"></td>
 		</tr>
 
 
@@ -95,26 +96,65 @@
 		<div class="form-div2">
 			<h2 style="padding-bottom: 40px; text-align:center;"><big><b><font color="#fd5c63">Sign Up And Join Us</font></b></big></h2>
 			<form name="demo">
-				<input type="text" name="name" id="name" placeholder="Enter your Name" required>
-				<input type="Email" name="email" id="emailid" placeholder="Enter your Email ID" required>
-				<input type="password" name="pass" id="pd" placeholder="Enter Password" required>
+				<input type="text" name="name" id="name" placeholder="Enter your Name**" pattern="([a-zA-Z]{3,30}\s*)+" required>
+				<input type="Email" name="email" id="emailid" placeholder="Enter your Email ID**" required>
+				<input type="password" name="pass" id="pd" placeholder="Enter Password**" pattern="^^(?=.*?[A-Z])(?=(.*[a-z]){1,})(?=(.*[\d]){1,})(?=(.*[\W]){1,})(?!.*\s).{8,}$" required>
+				<p style="font-size: 11px; line-height: 0px; margin-left: 50px;">Password must contain A-Z, a-z, 0-9 and special characters</p>
 
-				<select name="cities" style="height:45px; width: 320px;" id="city">
-			      <option value="Select">Location</option>  
+				<select name="cities" style="height:45px; width: 85%;" id="city" required>
+			      <option value="">Location*</option>  
 				  <option value="Noida">New York</option>
 				  <option value="Delhi">London</option>
 				  <option value="Mumbai">US</option>
 				  <option value="Cape Town">Cape Town</option>
 				</select><br>
-				<input type="radio" name="gender" id="rd" value="Female"><span class="gen">Female</span>
-				<input type="radio" name="gender"  id="rd" value="male"><span class="gen">Male</span>
+				<input type="radio" name="gender" id="rd" value="Female"><span class="gen" >Female</span>
+				<input type="radio" name="gender"  id="rd" value="male"><span class="gen" >Male</span>
 				<input type="radio" name="gender"  id="rd" value="Others"><span class="gen">Others</span>
 				
 				
-				<input type="submit">
+				<input type="submit" value="SUBMIT">
 
 			</form>
 		</div>
+
+
+
+		<div class="footer-2" style="margin-top: 0;">
+		  <div class="foot-1">
+		  		<div class="div1">
+			  		<h3>Food Paradise</h3>
+			  	</div>
+		  		<div class="div2">
+			  		<a href="#"><span><i class="fa fa-twitter-square" aria-hidden="true"></i></span></a>
+			  		<a href="#"><span><i class="fa fa-instagram" aria-hidden="true"></i></span></a>
+			  		<a href="#"><span><i class="fa fa-whatsapp" aria-hidden="true"></i></span></a>
+		  		</div>
+		  </div>
+		  <div class="foot-2">
+			  	
+		  		<ul type="none">
+		  			<li><h3>Locations</h3></li>
+					<li>William City</li>
+		  			<li>Tokowanfo</li>
+		  			<li>Lakeway Town</li>
+		  			<li>Kingsland Villa</li>
+		  			<li>Spicewood City</li>
+		  			<li>George Town</li>
+		  		</ul>
+
+		  		<form>
+			  		<input type="email" name="email" placeholder="Enter you Email address" required>
+			  		<input type="submit" name="submit" value="Submit" id="submit">
+		  		</form>
+		  </div>		  
+		</div>
+
+		<div class="end">
+			<span><a href="Terms.html">Terms & Conditions</a></span><span></span><span><a href="privacy.html">Privacy</a></span><span></span><span><a href="Contact.html">Contact Us</a></span><span></span><span><a href="About.html">About Us</a></span><span></span><span>&copy; 2020copyright</span>
+			
+		</div>
+
 
 
 		<div class="footer-3">
@@ -129,18 +169,17 @@
 			  	<a href="#"><span><i class="fa fa-whatsapp" aria-hidden="true"></i></span></a>
 			</div>
 			<div class="foot-2">
-				<div>
-				  	<h3 style="margin-left: 25%; ">Locations</h3>
-				</div>
-		  		
-		  		<ul type="none" style="margin-bottom: 10%;">
-		  			<li>Kyle</li>
-		  			<li>Taylor</li>
-		  			<li>Lakeway</li>
-		  			<li>Kingsland</li>
-		  			<li>Spicewood</li>
-		  			<li>GeorgeTown</li>
-		  		</ul>
+				
+		  		<div style="text-align: center;">
+		  		<ul type="none" style="margin-bottom: 0; margin-left: 15%;">
+		  			<li><h3>Locations</h3></li>
+		  			<li>William City</li>
+		  			<li>Tokowanfo</li>
+		  			<li>Lakeway Town</li>
+		  			<li>Kingsland Villa</li>
+		  			<li>Spicewood City</li>
+		  			<li>George Town</li>
+		  		</ul></div>
 		  	</div>
 		  	<div class="last" style="bottom: 0; margin-bottom: 0;">
 		  		<p>Food Paradise &copy; 2020copyright</p>
