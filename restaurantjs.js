@@ -1,4 +1,5 @@
 
+// Javascript logic for hamburger and navbar for mobile devices
 function opennav(){
 	var navbar=document.getElementById("navbar");
 	navbar.style.display="block";
@@ -15,9 +16,9 @@ function closenav(){
 	
 }
 
+//For displaying map on home page
 
 let map;
-
 function initMap() {
 	map = new google.maps.Map(document.getElementById("map"), {
 	center: { lat: -34.397, lng: 150.644 },
