@@ -14,17 +14,14 @@ html,body{
 	background-position: center;
 	height: 600px;
 	width: 100%;
-	/*border:2px solid green;*/
 }
 
 .navbar{
 	width: 100%;
 	height: 55px;
-	/*border:2px solid red;*/
 }
 .title{
 	font-size: 40px;
-	/*border:2px solid blue;*/
 	float: left;
 	width:20%;
 	text-align: center;
@@ -37,7 +34,6 @@ html,body{
 	width: 35%;
 	margin: 7px;
 	display: inline-block;
-	/*border:2px solid blue;*/
 }
 
 /* This changes all the animations globally */
@@ -61,7 +57,6 @@ html,body{
 }
 .reserve{
 	margin-top: 5%;
-	/*border:2px solid red;*/
 }
 .res-btn{
 	padding:15px;
@@ -83,10 +78,8 @@ html,body{
 	height: 100%;
 	margin-top: 8%;
 	position: relative;
-	/*border:2px solid red;*/
 }
 .h1{
-	/*border:2px solid red;*/
 	text-align: center;
 	margin-right: 20%;
 	padding-top: 40px;
@@ -104,7 +97,6 @@ html,body{
 	background-size: cover, contain;
 	width: 20%;
 	height: 50%;
-	/*border:2px solid red;*/
 }
 .chef-intro{
 	float: right;
@@ -118,7 +110,6 @@ html,body{
 	text-align: center;
 	background-color:  #fd5c63;
 	box-shadow: 10px 10px  20px #ff414d;
-	/*justify-content: center;*/
 }
 .chef-intro h3{
 	font-weight: bold;
@@ -129,7 +120,6 @@ html,body{
 	width: 100%;
 	height: 900px;
 	color:  #fd5c63;
-	/*border:2px solid red;*/
 }
 .speciality h1{
 	text-align: center;
@@ -141,7 +131,6 @@ html,body{
 	margin-right: 3%;
 	width: 94%;
 	height: 700px;
-	/*border:2px solid red;*/
 }
 .mini-menu{
 	text-align: center;
@@ -154,16 +143,13 @@ html,body{
 	padding-right: 2%;
 	background-color: #fd5c63;
 	box-shadow: 10px 10px  20px #ff414d;
-	/*border:2px solid red;*/
 }
 .mini-menu a{
-	/*text-decoration: ;*/
 	color: #fff;
 }
 .slideshow{
 	display: block;
 	height: 600px;
-	/*border:2px solid blue;*/
 }
 
 #slider{
@@ -172,7 +158,6 @@ html,body{
 	margin: 2px 2px 2px 2px;
 	width: 580px;
 	height: 580px;
-	/*border:2px solid blue;*/
 	position: relative;
 }
 #slider img{
@@ -217,7 +202,7 @@ html,body{
 	padding:5px;
 	margin-top: 1%;
 	margin-left: 3%;
-	/*border: 2px solid blue;*/
+	
 }
 .d2{
 	float:	right;
@@ -226,20 +211,18 @@ html,body{
 	margin: 3%;
 	margin-right: 30px;
 	height: 75%;
-	/*border: 2px solid blue;*/
 }
 
 .gallery{
 	margin-top: 7%;
 	text-align: center;
-	font-weight: bold
-	/*border: 2px solid blue;*/
+	font-weight: bold;
 }
 .row {
 	margin-top: 2%;
-  display: -ms-flexbox; /* IE10 */
+  display: -ms-flexbox; 
   display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
+  -ms-flex-wrap: wrap; 
   flex-wrap: wrap;
   width: 100%;
   padding: 0 4px;
@@ -248,7 +231,7 @@ html,body{
 
 /* Create four equal columns that sits next to each other */
 .column {
-  -ms-flex: 25%; /* IE10 */
+  -ms-flex: 25%; 
   flex: 25%;
   max-width: 43%;
   padding: 0 4px;
@@ -261,11 +244,11 @@ html,body{
 }
 
 .reviews{
-	/*border:2px solid red;*/
 	width: 100%;
 	height: 800px;
 	margin-top: 5%;
 	margin-bottom: 2%;
+	padding-top: 30px;
 	background-color: #fd5c63;
 }
 .review{
@@ -273,17 +256,15 @@ html,body{
 	font-size: 25px;
 	color:  #fff;
 	background-color: #fd5c63;
-	/*border:2px solid green;*/
 }
 .footer-1 {
 	width: 100%;
 	height: 600px;
 	display: inline-block;
-   /* border:2px solid black;*/
+
 }
 .map{
 	float: left;
-	/*border:2px solid red;*/
 	margin:5% 2% 5% 10%;
 	width: 40%;
 }
@@ -297,7 +278,6 @@ html,body{
 	background-color: #fd5c63;
 	color: #fff;
 	box-shadow: 10px 10px  20px #ff414d;
-	/*border:2px solid red;*/
 	margin:3% 8% 10% 0;
 }
 
@@ -309,7 +289,6 @@ html,body{
 	margin-top: 10%;
 	bottom: 0;
 	background-color: #ca3433;
-	/*border:2px solid blue;*/
 	color: #fff;
 }
 
@@ -320,7 +299,7 @@ html,body{
 	padding :10px;
 	margin: 3%;
 	text-align: center;
-	/*border:2px solid red;*/
+	
 }
 
 .div1{
@@ -328,7 +307,7 @@ html,body{
 	width: 100%;
 	height: 50px;
 	text-align: center;
-	/*border:2px solid red;*/
+	
 }
 .div1 h3{
 	margin: 10px 30px 10px 30px;
@@ -339,7 +318,6 @@ html,body{
 	height: 40%;
 	margin: 7% 0 4% 0;
 	text-align: center;
-	/*border:2px solid red;*/
 }
 .div2 span{
 	padding: 20px;
@@ -351,7 +329,6 @@ html,body{
 	float: right;
 	padding :20px;
 	display: inline-block;
-	/*border:2px solid red;*/
 }
 
 span i{
@@ -369,7 +346,6 @@ span i{
 	padding :20px;
 	color: #fff;
 	margin-right: 5%;
-	/*border:2px solid red;*/
 } 
 
 .foot-2 input[type=email]{
@@ -395,8 +371,6 @@ span i{
 	color: #fff;
 	padding-top: 20px;
 	background-color: #ca3433;
-	/*
-	border:2px solid red;*/
 }
 .end span {
 	padding-right: 5%;
@@ -432,6 +406,33 @@ span i{
 	display: none;
 }
 
+.food-paradise{
+	width: 100%;
+	height: 20%;
+	text-align: center;
+	color: #fd5c63;
+	font-size: 30px;
+	font-weight: bold;
+	padding: 20px;
+}
+.content-privacy{
+	margin-left: 10%;
+	margin-right: 10%;
+	font-size: 18px;
+	padding:15px;
+	background-color: #fff;
+}
+.container-div-privacy{
+	background-color: #eeeeee;
+
+}
+
+
+
+
+
+
+
 
 
 /* Responsive layout - makes a two column-layout instead of four columns */
@@ -454,7 +455,7 @@ span i{
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
 	.container{
 		height: 500px;
 	}
@@ -468,7 +469,6 @@ span i{
 		margin-left: 27%;
 		float: left;
 		text-align: center;
-	/*	border:2px solid black;*/
 	}
 
 
@@ -476,14 +476,13 @@ span i{
 		display: block;
 	}
 	#navbar{
-		width: 400px;
+		width: 300px;
 		float: left;
 		padding-top: 0;
 		background-color:#fd5c63; 
-		height: 600px;
+		height: 100%;
 		position: fixed;
 		z-index: 9;
-		/*border:2px solid black;*/
 		margin-top: 0;
 	}
 	
@@ -495,7 +494,6 @@ span i{
 		margin-left: 20%;
 		margin-top: 5%;
 		margin-right: 20%;
-	/*border:2px solid black;*/
 	}
 	#navbar a{
 		text-decoration: none;
@@ -527,7 +525,7 @@ span i{
 		margin-top: 30%;
 	}
 	.chef{
-		margin-top: 15%;
+		margin-top: 20%;
 		
 	}
 	h1{
@@ -540,14 +538,14 @@ span i{
 	}
 	.chef-intro{
 		width: 60%;
-		height: 200px;
+		height: 50%;
 		margin-top: 2%;
 		padding: 20px;
 		font-size: 18px;
 		margin-right:15%;
 	}
 	.speciality{
-		margin-top: 60%;
+		margin-top: 80%;
 		font-size: 20px;
 		height: 1000px;
 	}
@@ -555,8 +553,8 @@ span i{
 		height: 530px;
 	}
 	.mini-menu{
-		width: 60%;
-		margin-left: 6%;
+		width: 55%;
+		margin-left: 4%;
 		height: 500px;
 		font-size: 13px;
 		padding: 5px;
@@ -565,14 +563,12 @@ span i{
 	height: 310px;
 	width: 500px;
 	margin-left: 30%;
-	/*border:2px solid blue;*/
 	}
 
 	#slider{
 		margin: 2px 2px 2px 2px;
 		width: 250px;
 		height: 300px;
-		/*border:2px solid blue;*/
 		position: relative;
 	}
 	#slider img{
@@ -584,12 +580,15 @@ span i{
 	}
 
 	.review{
-		font-size: 18px;
+		font-size: 15px;
 		margin-top: 5%;
-		margin-bottom: 0;
+		margin: 2% 3% 3% 2%;
+		margin-bottom: 10%;
 	}
 	.reviews{
-		margin-bottom: 0;
+		margin-bottom: 5%;
+		padding-top: 2%;
+		height: 100%;
 	}
 	.map{
 		display: none;
@@ -601,17 +600,18 @@ span i{
 		display: none;
 	}
 	.footer-3{
+
+
 		display: block;
 		width: 100%;
-		font-size: 20px;
 		margin-top: 20%;
-		height: 380px;
+		font-size: 20px;
+		height: 100%;
+		position: relative;
 		box-shadow: 20px 40px 30px 50px #eee;
-		bottom: 0;
-		margin-top: 10%;
 		background-color: #fff;
-		/*border:2px solid blue;*/
 		color:#fd5c63;
+		
 	}
 	.contact-info{
 		text-align: center;
@@ -626,7 +626,6 @@ span i{
 		height: 50px;
 		margin: 5% 0 0 0;
 		text-align: center;
-		/*border:2px solid black;*/
 	}
 	.social span{
 		padding: 10px;
@@ -635,11 +634,11 @@ span i{
 	}
 
 	.foot-2{
-		width: 30%;
+		width: 100%;
 		margin-right: 35%;
 		padding: 0;
 		font-size: 15px;
-		/*border:2px solid red;*/
+		height: auto;
 	}
 
 	span i{
@@ -647,19 +646,26 @@ span i{
 	}
 
 	.foot-2 ul{
-		width: 40%;
+		width: 50%;
 		text-align: center;
 	}
 	.last{
-		margin-top: 40%;
 		border:2px solid #fd5c63;
 		font-size: 16px;
 		text-align: center;
 		margin-bottom: 0;
 		bottom: 0;
+		width: 100%;
 		color: #fff;
+		position: absolute;
 		background-color: #fd5c63;
 	}
 
 
 }
+
+
+
+
+
+
