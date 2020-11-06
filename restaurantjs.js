@@ -1,6 +1,4 @@
 
-window.onresize= myFunction2;
-var flag=0;
 function opennav(){
 	var navbar=document.getElementById("navbar");
 	navbar.style.display="block";
@@ -26,3 +24,4 @@ function initMap() {
 	zoom: 8,
 });
 	}
+
