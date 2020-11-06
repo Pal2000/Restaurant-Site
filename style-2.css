@@ -20,11 +20,10 @@ html,body{
 .navbar{
 	width: 100%;
 	height: 55px;
-	/*border:2px solid red;
-*/}
+	
+}
 .title{
 	font-size: 40px;
-	/*border:2px solid blue;*/
 	float: left;
 	width:20%;
 	text-align: center;
@@ -37,7 +36,6 @@ html,body{
 	width: 35%;
 	margin: 7px;
 	display: inline-block;
-	/*border:2px solid blue;*/
 }
 
 /* This changes all the animations globally */
@@ -59,10 +57,9 @@ html,body{
 	margin: 5% 15% 5% 15%;
 	font-size: 20px;
 	text-align: center;
-	/*text-shadow: 1px 1px #000;*/
 	color: #fff;
 	box-shadow: 10px 20px  20px #ff414d;
-	background-color: #fd5c63;/*#f56a79;*/
+	background-color: #fd5c63;
 }
 
 .footer-2{
@@ -73,7 +70,6 @@ html,body{
 	margin-top: 10%;
 	bottom: 0;
 	background-color: #ca3433;
-	/*border:2px solid blue;*/
 	color: #fff;
 }
 
@@ -84,7 +80,6 @@ html,body{
 	padding :10px;
 	margin: 3%;
 	text-align: center;
-	/*border:2px solid red;*/
 }
 
 .div1{
@@ -92,7 +87,6 @@ html,body{
 	width: 100%;
 	height: 50px;
 	text-align: center;
-	/*border:2px solid red;*/
 }
 .div1 h3{
 	margin: 10px 30px 10px 30px;
@@ -103,7 +97,6 @@ html,body{
 	height: 40%;
 	margin: 7% 0 4% 0;
 	text-align: center;
-	/*border:2px solid red;*/
 }
 .div2 span{
 	padding: 20px;
@@ -115,7 +108,6 @@ html,body{
 	float: right;
 	padding :20px;
 	display: inline-block;
-	/*border:2px solid red;*/
 }
 
 span i{
@@ -133,7 +125,6 @@ span i{
 	padding :20px;
 	color: #fff;
 	margin-right: 5%;
-	/*border:2px solid red;*/
 } 
 
 .foot-2 input[type=email]{
@@ -160,8 +151,6 @@ span i{
 	color: #fff;
 	padding-top: 20px;
 	background-color: #ca3433;
-	/*
-	border:2px solid red;*/
 }
 .end span {
 	padding-right: 5%;
@@ -171,6 +160,11 @@ span i{
 .end span a{
 	text-decoration: none;
 	color: #fff;
+}
+
+input{
+	outline-style: none;
+	border: none;
 }
 
 .head-menu{
@@ -249,7 +243,6 @@ span i{
 }
 
 .menu-div{
-	/*border:2px solid red;*/
 	height: 600px;
 	width: 100%;
 	display: inline-block;
@@ -263,7 +256,6 @@ span i{
 }
 
 .centered span {
-	/*color: #ff414d;*/
 	font-size: 35px;
 	font-weight: bolder;
 
@@ -289,13 +281,11 @@ span i{
 
 .reservation{
 	text-align: center;
-	/*border:1px solid red;*/
 	margin-top: 100px;
 	height:70px;
 }
 .reservation a{
 	font-size: 30px;
-	/*font-weight: bold;*/
 	color: #fd5c63;
 	text-decoration: none;
 }
@@ -307,7 +297,6 @@ span i{
 	margin-top: 10%;
 	width: 100%;
 	height: 1000px;
-	/*border:1px solid blue;*/
 }
 .para{
 	float: left;
@@ -315,7 +304,6 @@ span i{
 	font-size: 18px;
 	height: 200px;
 	margin:5% 3% 0 10%;
-	/*border:1px solid red;*/
 	color: #fd5c63;
 	
 }
@@ -328,7 +316,6 @@ span i{
 }
 
 .reserve-form{
-	/*border:1px solid red;*/
 	width: 40%;
 	height: 750px;
 	float: right;
@@ -340,14 +327,12 @@ table{
 	padding-left: 50px;
 	padding-right: 40px;
 	padding-bottom: 20px;
-	/*border:1px solid red;*/
 	width: 100%;
 	height: 100%;
 	background-color: #fd5c63;
 }
 
 input{
-	/*width: 500px;*/
 	height: 35px;
 	font-size: 20px;
 }
@@ -364,7 +349,6 @@ input[type=submit]{
 	width: 150px;
 	color: #fd5c63;
 	cursor: hand;
-	/*background-color: #dcdcdc;*/
 }
 input[type=submit]:hover{
 	color: white;
@@ -378,8 +362,6 @@ input{
 	width: 100%;
 	height: 300px;
 	margin-top: 3%;
-
-/*	border:1px solid red;*/
 	display: inline-block;
 }
 
@@ -397,7 +379,6 @@ input{
 	width: 25%;
 	 height: 300px;
 	 margin-top: 2%;
-	/* border:2px solid pink;*/
 	 display: inline-block;
 }
 .title-contact{
@@ -406,7 +387,6 @@ input{
 	margin-left: 5%;
 	color: #fd5c63;;
 	font-size: 30px;
-	/* border:2px solid pink;*/
 }
 .info{	
 	float: right;
@@ -414,7 +394,6 @@ input{
 	margin-top: 10%;
 	color: #fd5c63;;
 	font-size: 20px;
-	/* border:2px solid pink;*/
 }
 .Phone{
 	float: left;
@@ -422,7 +401,6 @@ input{
 	width: 25%;
 	 height: 300px;
 	 margin-top: 2%;
-	/* border:2px solid pink;*/
 	 display: inline-block;
 }
 
@@ -432,7 +410,6 @@ input{
 	margin-top: 10%;
 	color: #fd5c63;;
 	font-size: 20px;
-	/* border:2px solid pink;*/
 }
 
 .add{
@@ -441,7 +418,6 @@ input{
 	width: 25%;
 	 height: 300px;
 	 margin-top: 2%;
-	 /*border:2px solid pink;*/
 	 display: inline-block;
 }
 
@@ -451,7 +427,6 @@ input{
 	margin-top: 10%;
 	color: #fd5c63;;
 	font-size: 20px;
-/*	 border:2px solid pink;*/
 }
 
 table{
@@ -469,7 +444,7 @@ table{
 	border-radius: 100px;
 	width:600px;
 	outline-style: none;
-	height:850px; 
+	height:865px; 
 	margin:10% 20% 5% 25%;
 	background-repeat: no-repeat;
 	border:ridge rgba(206, 111, 4, 0.678);
@@ -483,7 +458,6 @@ input[type=text], select, input[type=password], input[type=email]
   padding: 10px;
   margin: 5px;
   border: 2px solid #fd5c63;
-/*  border-radius: 40px;*/
   outline-style: none;
 }
 
@@ -495,7 +469,6 @@ input[type=text], select, input[type=password], input[type=email]
   color: #fd5c63;
   padding: 10px;
   margin: 8px;
- /* border-radius: 40px;*/
   cursor: pointer;
 
   width: 140px;
@@ -507,7 +480,7 @@ input[type=text], select, input[type=password], input[type=email]
     background-color:#fd5c63;
 }
 
-input[type=text]:hover, input[type=password]:hover, input[type=email]:hover, input[type=date]:hover, input[type=number]:hover {
+input[type=text]:hover,input[type=password]:hover, input[type=email]:hover, input[type=date]:hover, input[type=number]:hover,input[type=tel]:hover {
   background-color:#eeeeee;
 }
 
@@ -565,7 +538,7 @@ input[type=radio], input[type=checkbox]{
 
 /*// mobile view*/
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
 	.container{
 		height: 500px;
 	}
@@ -579,14 +552,12 @@ input[type=radio], input[type=checkbox]{
 		margin-left: 27%;
 		float: left;
 		text-align: center;
-		/*border:2px solid black;*/
 	}
 	.hamburger{
 		display: block;
 	}
 	.about{
-		margin-top: 60%;
-		/*border: 2px solid black;*/
+		margin-top: 50%;
 	}
 	.footer-2, .end{
 		display: none;
@@ -596,11 +567,10 @@ input[type=radio], input[type=checkbox]{
 		width: 100%;
 		margin-top: 20%;
 		font-size: 20px;
-		height: 380px;
+		height: 100%;
 		position: relative;
 		box-shadow: 20px 40px 30px 50px #eee;
 		background-color: #fff;
-		/*border:2px solid blue;*/
 		color:#fd5c63;
 	}
 	.contact-info{
@@ -616,7 +586,6 @@ input[type=radio], input[type=checkbox]{
 		height: 50px;
 		margin: 5% 0 0 0;
 		text-align: center;
-		/*border:2px solid black;*/
 	}
 	.social span{
 		padding: 10px;
@@ -625,11 +594,10 @@ input[type=radio], input[type=checkbox]{
 	}
 
 	.foot-2{
-		width: 30%;
-		margin-right: 35%;
+		width: 100%;
 		padding: 0;
 		font-size: 15px;
-		/*border:2px solid red;*/
+		height: auto;
 	}
 
 	span i{
@@ -637,28 +605,26 @@ input[type=radio], input[type=checkbox]{
 	}
 
 	.foot-2 ul{
-		width: 40%;
-		/*left: 10%;*/
+		width: 50%;
 		text-align: center;
 	}
 	.last{
-		margin-top: 40%;
 		border:2px solid #fd5c63;
 		font-size: 16px;
 		width: 100%;
 		text-align: center;
 		color: #fff;
+		position: absolute;
 		background-color: #fd5c63;
 	}
 	#navbar{
-		width: 400px;
+		width: 300px;
 		float: left;
 		padding-top: 0;
 		background-color:#fd5c63; 
-		height: 600px;
+		height: 100%;
 		position: fixed;
 		z-index: 9;
-		/*border:2px solid black;*/
 		margin-top: 0;
 	}
 	
@@ -670,7 +636,6 @@ input[type=radio], input[type=checkbox]{
 	margin-left: 20%;
 	margin-top: 5%;
 	margin-right: 20%;
-	/*border:2px solid black;*/
 	
 	}
 	#navbar a{
@@ -705,30 +670,74 @@ input[type=radio], input[type=checkbox]{
 	.menu-div-mobile{
 		display: block;
 		width: 100%;
-		margin-top: 5%;
 		height:2050px;
-		/*border:3px solid blue;*/
 	}
+
 	.flip-card{
-		margin-top: 20%;
-		width: 300px;
-		height: 400px;
-		margin-right: 0;
-		margin-left: 20%;
-		/*border:2px solid red;*/
+	  background-color: transparent;
+	  width: 300px;
+	  height: 400px;
+	  perspective: 1000px;
+	  float: left;
+	  margin-top: 20%;
+	  margin-left: 20%;
 	}
-	.flip-card-inner, .flip-card-back{
-		width: 300px;
-		height: 400px;
-		margin-left: 10%;
-		/*border:4px solid green;*/
+
+
+
+	.flip-card{
+	  background-color: transparent;
+	  width: 300px;
+	  height: 400px;
+	  perspective: 1000px;
+	  float: left;
+
+	}
+
+
+	.flip-card-inner {
+	  position: relative;
+	  width: 300px;
+	  height: 400px;
+	  margin-left: 10%;
+	  text-align: center;
+	  transition: transform 0.6s;
+	  transform-style: preserve-3d;
+	  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	}
+
+	.flip-card:hover .flip-card-inner {
+	  transform: rotateY(180deg);
+	}
+
+	.flip-card-front, .flip-card-back {
+	  position: absolute;
+	  width: 300px;
+	  height: 400px;
+	  -webkit-backface-visibility: hidden;
+	  backface-visibility: hidden;
 	}
 	.flip-card-front img{
 		width:300px;
 		height: 400px;
 	}
+
+	.flip-card-front {
+	  background-color: #bbb;
+	  color: black;
+	}
+
+	.flip-card-back {
+	  background-color: #fd5c63;
+	  color: #fff;
+	  width: 300px;
+	  height: 400px;
+	  transform: rotateY(180deg);
+	}
+
+
 	.reservation{
-		margin-top: 20%;
+		margin-top: 40%;
 	}
 	.flip-card-back{
 		padding: 4px;
@@ -739,7 +748,7 @@ input[type=radio], input[type=checkbox]{
 		left: 56%;
 	}
 	.head-menu{
-		margin-top: 60%; 
+		margin-top: 50%; 
 		
 	}
 	.paraheader{
@@ -751,11 +760,13 @@ input[type=radio], input[type=checkbox]{
 		margin-top: 50%;
 		text-align: center;
 	}
+	.info{
+		margin-left: 10%;
+	}
 	.reserve-form{
 		display: none;
 	}
 	.form{
-		/*border:3px solid green;*/
 		display: block;
 		width: 90%;
 		margin: 5% 5% 5% 5%;
@@ -766,19 +777,30 @@ input[type=radio], input[type=checkbox]{
 		height: 500px;
 		}
 	.form input{
-		width: 100%;
+		width: 99%;
 		height: 20px;
 		font-size: 20px;
 		padding: 5px;
+		
 	}
-
+	.form input[type=date]{
+		width: 97%;
+	}
+	.form input[type=number]{
+		width: 97%;
+	}
+	.form input[type=text]:hover, select:hover, input[type=password]:hover, input[type=email]:hover, input[type=tel]:hover{
+		background-color: #eeeeee;
+	}
+	.form input[type=email]:hover{
+		background-color: #eeeeee;
+	}
 	.th{
 		text-align: center;
 		font-size: 25px; 
 		font-weight: bold;
 		padding-top: 10px;
 		padding-left: 20px;
-		 /*border:2px solid blue;*/
 	}
 	td{
 		padding-bottom: 0;
@@ -796,21 +818,29 @@ input[type=radio], input[type=checkbox]{
 	border:3px solid #fd5c63;
 	border-radius: 10px;
 	}
+	
+	form input[type=submit]{
+		margin-bottom: 20%;
+	}
+
 	.form-div{
 		display: none;
 	}
 	.form-div2{
 		display: block;
-		/*border:2px solid black;*/
-		margin-top: 60%;
-		width: 350px;
-		margin-left: 10%;
+		margin-top: 45%;
+		width: 80%;
+		margin-left: 5%;
+		margin-right: 5%;
 		padding: 20px;
 		line-height: 20px;
 	}
 	.form-div2 input[type=text], select, input[type=password], input[type=email]
 	{
-		margin: 3%;
+		margin-top: 5%;
+		margin-left: 10%;
+		margin-right: 10%;
+		width: 80%;
 		border-top: 0;
 		border-left: 0;
 		border-right: 0;
@@ -828,7 +858,8 @@ input[type=radio], input[type=checkbox]{
 	
 	.form-div2 input[type=radio]{
 		padding: 20px;
-		margin: 4%;
+		margin-top: 5%;
+		margin-left: 10%;
 		text-align: center;
 	}
 	.form-div2 input[type=radio]:hover{
@@ -841,7 +872,7 @@ input[type=radio], input[type=checkbox]{
 	.form-div2 input[type=submit]{
 		padding:20px;
 		font-size: 20px;
-		margin-left: 25%;
+		margin-left: 32%;
 		text-align: center;
 		padding-bottom: 35px;
 		margin-top: 20%;
@@ -859,54 +890,48 @@ input[type=radio], input[type=checkbox]{
 	}
 	.main-content{
 		height: 700px;
-		/*border:2px solid red;*/
 	}
 
-.Email{
-	width: 90%;
-	padding: 0;
-	 height: 200px;
-	 margin-top: 2%;
-	/* border:2px solid pink;*/
-}
+	.Email{
+		width: 90%;
+		padding: 0;
+		 height: 200px;
+		 margin-top: 2%;
+	}
 
-.title-contact{
-	margin-top: 20%;
-	color: #fd5c63;;
-	font-size: 30px;
-	padding: 0;
-	/* border:2px solid pink;*/
-}
-.info{	
-	
-	margin-right: 10%;
-	margin-top: 10%;
-	color: #fd5c63;;
-	padding: 0;
-	font-size: 20px;
-	/* border:2px solid pink;*/
-}
-.Phone{
-	width: 90%;
-	padding: 0;
-	 height: 200px;
-	 margin-left: 8%;
-	/* border:2px solid pink;*/
-}
+	.title-contact{
+		margin-top: 20%;
+		color: #fd5c63;;
+		font-size: 30px;
+		padding: 0;
+	}
+	.info{	
+		
+		margin-right: 10%;
+		margin-top: 10%;
+		color: #fd5c63;;
+		padding: 0;
+		font-size: 20px;
+	}
+	.Phone{
+		width: 90%;
+		padding: 0;
+		 height: 200px;
+		 margin-left: 8%;
+	}
 
-.info-p{	
-	float: right;
-	margin-right: 20%;
-	margin-top: 10%;
-	color: #fd5c63;;
-	font-size: 20px;
-	/* border:2px solid pink;*/
-}
+	.info-p{	
+		float: right;
+		margin-right: 20%;
+		margin-top: 10%;
+		color: #fd5c63;;
+		font-size: 20px;
+	}
 
-.add{
-	width: 90%;
-	padding: 0;
-	 height: 200px;
-	 margin-left: 8%;
-	/* border:2px solid pink;*/
+	.add{
+		width: 90%;
+		padding: 0;
+		 height: 200px;
+		 margin-left: 8%;
+	}
 }
